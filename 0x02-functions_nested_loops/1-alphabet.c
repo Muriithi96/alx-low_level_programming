@@ -1,19 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - check your code
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
+ *
  */
 
 int main(void)
 {
-	      char p = 'a';
+	char p = 'a';
 
-	      while (p <= 'z')
+	while (p <= 'z')
         {
-		          putchar (p);
-              p++;
+		putchar (p);
+                p++;
         }
-	      putchar ('\n');
+	putchar ('\n');
 }
