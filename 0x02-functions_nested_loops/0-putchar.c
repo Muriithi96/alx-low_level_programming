@@ -1,17 +1,19 @@
-#include "main.h"
+#include "_putchar.h"
 /**
- * main - Prints School
+ * main - Prints _putchar
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar('S');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
 	_putchar('c');
 	_putchar('h');
-	_putchar('o');
-	_putchar('o');
-	_putchar('l');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
 }
