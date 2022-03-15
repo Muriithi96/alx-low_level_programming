@@ -6,7 +6,7 @@
  * Definition: print_alphabet - prints the alphabet in lowercase, followed by a new line.
  *
  */
-void print_alphabet(void)
+int main(void)
 {
 	char p;
 	
@@ -16,4 +16,5 @@ void print_alphabet(void)
 	}
 
 	putchar ('\n');
+return (0);
 }
