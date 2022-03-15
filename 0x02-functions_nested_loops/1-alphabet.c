@@ -1,21 +1,18 @@
-#include "main.h"
-
-/**
- * main - main branch
- *
- * Definition: print_alphabet - prints the alphabet in lowercase, followed by a new line.
- *
- */
-int main(void)
-{
-	char p;
-	
-	for (p = 'a'; p <= 'z'; p++)
-	{
-		putchar (p);
-		p++;
-	}
-
-	putchar ('\n');
-return (0);
-}
+ 
+ ​#​include​ ​"​main.h​" 
+  
+ ​/*​* 
+ ​ * print_alphabet -prints out alphabet 
+ ​ * 
+ ​ * Return: void 
+ ​ ​*/ 
+  
+ ​void​ ​print_alphabet​(​void​) 
+  
+ ​{ 
+ ​char​ x; 
+ ​for​ (x = ​'​a​'​; x <= ​'​z​'​; x++) 
+ ​_putchar​(x); 
+  
+ ​_putchar​(​'​\n​'​); 
+ ​}
