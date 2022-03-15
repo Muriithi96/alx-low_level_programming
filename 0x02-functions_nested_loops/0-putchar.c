@@ -1,26 +1,19 @@
-/*
- * File: 0-putchar.c
- *
- */
-
 #include <stdio.h>
 
 /**
  * main - Prints _putchar followed by a new line.
  * 
- * Return: Always 0.
+ * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
+	int i;
+	char P[] = "_Putchar";
+	         for (i = 0; i < 9; i++)
+		 {
+			 putchar(P[i]);
+		 }
 	putchar('\n');
-
-	return (0);
+        return (0);
 }
