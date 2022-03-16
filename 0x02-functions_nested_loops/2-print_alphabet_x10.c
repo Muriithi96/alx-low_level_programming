@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 -prints out alphabet 10 times
  *
- * Return: always void
+ * Return: alwys oid
  */
 void print_alphabet_x10(void)
 
@@ -13,8 +13,8 @@ int x;
 for (x = 0; x < 10; x++)
 {
 for (m = 'a'; m <= 'z'; m++)
-  _putchar(m);
+_putchar(m);
 
-  _putchar('\n');
+_putchar('\n');
 }
 }
